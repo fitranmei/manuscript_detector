@@ -1,0 +1,42 @@
+{
+  "permissions": {
+    "allow": [
+      "WebSearch",
+      "Bash(curl -s -L \"https://docs.ultralytics.com/models/yolo26/\" -o /tmp/yolo26_docs.html)",
+      "Bash(curl -s -L \"https://arxiv.org/abs/2510.09653\" -o /tmp/arxiv_2510.html)",
+      "Bash(curl -s -L \"https://blog.roboflow.com/yolo26/\" -o /tmp/roboflow_yolo26.html)",
+      "Bash(curl -s -L \"https://raw.githubusercontent.com/ultralytics/ultralytics/main/docs/en/models/yolo26.md\" -o /tmp/yolo26_github.md)",
+      "Bash(cp /tmp/yolo26_github.md E:/tmp_yolo26_github.md)",
+      "Bash(cp /tmp/yolo26_docs.html E:/tmp_yolo26_docs.html)",
+      "Bash(cp /tmp/arxiv_2510.html E:/tmp_arxiv_2510.html)",
+      "Bash(cp /tmp/roboflow_yolo26.html E:/tmp_roboflow_yolo26.html)",
+      "Bash(curl -s -L \"https://raw.githubusercontent.com/ultralytics/ultralytics/main/docs/en/macros/yolo-det-perf.md\" -o /tmp/yolo_det_perf.md)",
+      "Bash(cp /tmp/yolo_det_perf.md E:/tmp_yolo_det_perf.md)",
+      "Read(//e//**)",
+      "Bash(curl -s -L \"https://raw.githubusercontent.com/ultralytics/ultralytics/main/docs/en/modes/track.md\" -o /tmp/track.md)",
+      "Bash(cp /tmp/track.md E:/tmp_track.md)",
+      "Bash(curl -s -L \"https://raw.githubusercontent.com/ultralytics/ultralytics/main/ultralytics/cfg/datasets/coco.yaml\" -o /tmp/coco.yaml)",
+      "Bash(cp /tmp/coco.yaml E:/tmp_coco.yaml)",
+      "Bash(curl -s -L \"https://arxiv.org/abs/2509.25164\" -o /tmp/arxiv_2509.html)",
+      "Bash(cp /tmp/arxiv_2509.html E:/tmp_arxiv_2509.html)",
+      "WebFetch(domain:ieeexplore.ieee.org)",
+      "WebFetch(domain:www.mdpi.com)",
+      "WebFetch(domain:ijaseit.insightsociety.org)",
+      "Bash(python -m pytest tests/ -q)",
+      "Bash(python -m pip install pytest numpy -q)",
+      "Bash(python -m pip install matplotlib -q)",
+      "Bash(python make_figures.py)",
+      "Bash(npm --version)",
+      "Bash(npm init *)",
+      "Bash(npm install *)",
+      "Bash(node build_manuscript.js)",
+      "Bash(python \"C:/Users/Pongo/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/f482fc8d-aea9-4261-93ab-3960f000682d/5c1dbd02-dbf2-43d5-9674-11a1c3621be4/skills/docx/scripts/office/validate.py\" \"E:/Mei/collage/Comvis/Manuscript/manuscript.docx\")",
+      "Bash(python -m pip install defusedxml lxml -q)",
+      "Bash(python \"C:/Users/Pongo/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/f482fc8d-aea9-4261-93ab-3960f000682d/5c1dbd02-dbf2-43d5-9674-11a1c3621be4/skills/docx/scripts/office/soffice.py\" --headless --convert-to pdf manuscript.docx)",
+      "Bash(where soffice.exe)",
+      "Read(//c/Program Files/LibreOffice/program/**)",
+      "Read(//c/Program Files \\(x86\\)/LibreOffice/program/**)",
+      "Bash(where pandoc *)"
+    ]
+  }
+}

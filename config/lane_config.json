@@ -1,0 +1,15 @@
+{
+  "_comment": "Example lane definition for a 1280x720 CCTV frame of a two-way road running top-to-bottom through the image. Coordinates are in pixels; the origin is the top-left corner.",
+  "lanes": [
+    {
+      "name": "lane_southbound",
+      "polygon": [[520, 100], [760, 100], [820, 700], [440, 700]],
+      "reference_vector": [0.0, 1.0]
+    },
+    {
+      "name": "lane_northbound",
+      "polygon": [[260, 100], [500, 100], [420, 700], [40,  700]],
+      "reference_vector": [0.0, -1.0]
+    }
+  ]
+}
